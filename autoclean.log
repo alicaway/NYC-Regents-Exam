@@ -1,0 +1,36 @@
+28-07-2026 13:17:32.32 - INFO - Started validation of input parameters...
+28-07-2026 13:17:32.32 - INFO - Completed validation of input parameters
+28-07-2026 13:17:32.32 - INFO - Started handling of duplicates... Method: "AUTO"
+28-07-2026 13:17:32.34 - DEBUG - 0 missing values found
+28-07-2026 13:17:32.34 - INFO - Completed handling of duplicates in 0.019876 seconds
+28-07-2026 13:17:32.34 - INFO - Started handling of missing values...
+28-07-2026 13:17:32.34 - DEBUG - 0 missing values found
+28-07-2026 13:17:32.34 - INFO - Completed handling of missing values in 0.001742 seconds
+28-07-2026 13:17:32.34 - INFO - Started handling of outliers... Method: "WINZ"
+28-07-2026 13:17:32.35 - INFO - Completed handling of outliers in 0.008812 seconds
+28-07-2026 13:17:32.35 - INFO - Started conversion of DATETIME features... Granularity: s
+28-07-2026 13:17:32.35 - INFO - Completed conversion of DATETIME features in 0.0009 seconds
+28-07-2026 13:17:32.35 - INFO - Started encoding categorical features... Method: "AUTO"
+28-07-2026 13:17:32.36 - DEBUG - Encoding to LABEL succeeded for feature "Regents Exam"
+28-07-2026 13:17:32.37 - DEBUG - Encoding skipped for feature "School Name"
+28-07-2026 13:17:32.37 - DEBUG - Encoding to ONEHOT succeeded for feature "Category"
+28-07-2026 13:17:32.37 - DEBUG - Encoding skipped for feature "Percent Scoring 80 or Above"
+28-07-2026 13:17:32.37 - DEBUG - Encoding skipped for feature "School DBN"
+28-07-2026 13:17:32.38 - DEBUG - Encoding skipped for feature "Percent Scoring CR"
+28-07-2026 13:17:32.38 - DEBUG - Encoding skipped for feature "Number Scoring 80 or Above"
+28-07-2026 13:17:32.38 - DEBUG - Encoding skipped for feature "Number Scoring Below 65"
+28-07-2026 13:17:32.38 - DEBUG - Encoding skipped for feature "Number Scoring 65 or Above"
+28-07-2026 13:17:32.39 - DEBUG - Encoding skipped for feature "Mean Score"
+28-07-2026 13:17:32.39 - DEBUG - Encoding skipped for feature "Percent Scoring Below 65"
+28-07-2026 13:17:32.39 - DEBUG - Encoding skipped for feature "Percent Scoring 65 or Above"
+28-07-2026 13:17:32.39 - DEBUG - Encoding skipped for feature "Number Scoring CR"
+28-07-2026 13:17:32.39 - DEBUG - Encoding to ONEHOT succeeded for feature "School Level"
+28-07-2026 13:17:32.40 - DEBUG - Encoding skipped for feature "Unnamed Column"
+28-07-2026 13:17:32.41 - DEBUG - Encoding to ONEHOT succeeded for feature "School Type"
+28-07-2026 13:17:32.41 - DEBUG - Encoding skipped for feature "Total Tested"
+28-07-2026 13:17:32.41 - INFO - Completed encoding of categorical features in 0.05579 seconds
+28-07-2026 13:17:32.41 - INFO - Started feature type conversion...
+28-07-2026 13:17:32.41 - DEBUG - Conversion to type INT succeeded for feature "Year"
+28-07-2026 13:17:32.41 - DEBUG - Conversion to type INT succeeded for feature "Regents Exam_lab"
+28-07-2026 13:17:32.41 - INFO - Completed feature type conversion for 2 feature(s) in 0.001072 seconds
+28-07-2026 13:17:32.41 - INFO - AutoClean process completed in 0.092081 seconds
